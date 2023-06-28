@@ -4,4 +4,3 @@ const navbar = document.querySelector('.navbar');
 hamburgerMenu.addEventListener('click', () => {
   navbar.classList.toggle('active');
 });
-
