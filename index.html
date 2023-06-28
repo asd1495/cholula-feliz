@@ -7,16 +7,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font/flaticon.css">
     <link rel="stylesheet" href="css/media-queries.css">
-    <title>Cholula Feliz</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="icon" href="assets/cf_logo.jpeg">
+    <title>Bar de Jugos | Cholula Feliz</title>
 </head>
 <body>
-    <header>
-        <section class="header-icons-container">
-            <div class="icons">
-                <a href="/"><span class=""></span></a>
-                <a href="/"><span class="flaticon-001-facebook"></span></a>
-            </div>
-            <div class="topnav" id="myTopnav">
+    
+            <!--<div class="topnav" id="myTopnav">
                 <a href="#jugos" class="active">Jugos</a>
                 <a href="#licuados">Licuados</a>
                 <a href="#cocteleria">Coctelería</a>
@@ -25,28 +22,34 @@
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
                 </a>
-              </div>
-        </section>
-        <!--<nav>
-            <section class="nav-logo-container">
-                <a href=""><img src="assets/cf_logo.jpeg" alt="logo mi blog"></a>
-            </section>
-            <section class="profile-link">
-                <a href="/perfil.html">Sobre mí</a>
-            </section>
-        </nav>-->
-    </header>
+              </div>-->
+              <nav>
+                <div class="navbar">
+                  <a href="#home">Home</a>
+                  <a href="#jugos">Jugos</a>
+                  <a href="#licuados">Licuados</a>
+                  <a href="#cocteleria">Coctelería</a>
+                  <a href="#bc">Bebidas Calientes</a>
+                  <a href="alimentos">Alimentos</a>
+                </div>
+                <div class="hamburger-menu">
+                  <div class="bar"></div>
+                </div>
+              </nav>
+              
+  
     <main class="blogs-main">
         <section class="blogs-news-container">
-            <div class="grid-container blogs-main-new">
+            <div class="grid-container blogs-main-new" id="home">
                 <h3>
                 </h3>
                 <div class="blogs-news-img-container">
                     <img src="assets/banner1.jpeg" alt="">
                 </div>
                 <div class="blogs-news-info-container">
-                    <h2>Bar de jugos Cholula Feliz</h2>
+                    <h2>Bar de jugos <br> Cholula Feliz</h2>
                     <p>Este es un concepto gastronómico y saludable especializado en jugos de frutas naturales, todos elaborados con productos frescos y de calidad para asegurar la completa satisfacción de nuestros clientes.</p>
+                    <p>¡Pregunta por las promociones!</p>
                 </div>
             </div>
         </section>
@@ -57,51 +60,51 @@
                 </h3>
                 <!--Jugos-->
                 <h3 id="jugos">
-                    Jugos (Simples o Combinados)
+                    Jugos | Simples o Combinados
                 </h3>
                 <article class="post-container">
                     <img src="https://www.vidactual.com/rcpmaker/wp-content/uploads/2018/10/Jugo-de-zanahoria.jpg" alt="">
-                    <p>Jugo de Zanahoría</p>
+                    <p class="product-title">Jugo de Zanahoría</p>
                     <p>Prueba nuestro jugo de zanahoria fresco y nutritivo, lleno de vitaminas y sabor naturalmente dulce. ¡Una opción saludable y deliciosa para refrescarte!</p>
                 </article>
                 <article class="post-container">
                     <img src="https://recetasdebatidos.com/wp-content/uploads/2021/03/%C2%BFPara-que%CC%81-es-bueno-el-zumo-o-jugo-de-naranja-natural-Beneficios.jpeg" alt="">
-                    <p>Jugo de Naranja</p>
+                    <p class="product-title">Jugo de Naranja</p>
                     <p>Experimenta una refrescante explosión cítrica con nuestro jugo de naranja. Una opción energizante y llena de vitamina para comenzar tu día con un sorbo de frescura.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://frios.com.mx/wp-content/uploads/2021/12/Frios-Natura-pina-guayaba-albahaca_jugo.jpg" alt="">
-                    <p>Jugo Antigripal I</p>
+                    <p class="product-title">Jugo Antigripal I</p>
                     <p>Impulsa tu sistema inmunológico con nuestro jugo antigripal de naranja, guayaba y piña. Vitaminas y sabores tropicales que combaten resfriados y refrescan tu paladar.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://www.gastrolabweb.com/u/fotografias/m/2023/2/21/f1280x720-42641_174316_2743.jpg" alt="">
-                    <p>Jugo Antigripal II</p>
+                    <p class="product-title">Jugo Antigripal II</p>
                     <p>Fortalece tu sistema inmunológico con nuestro jugo de naranja, manzana y fresa. Una mezcla de sabores y antioxidantes para evitar resfriados y disfrutar una deliciosa protección.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://superpola.com//site/assets/files/29364/batida-de-naranja-fresa-y-avena-1.jpg" alt="">
-                    <p>Jugo Circulación</p>
+                    <p class="product-title">Jugo Circulación</p>
                     <p>Revitaliza tu circulación con nuestro jugo de fresa, piña y naranja. Una combinación refrescante y llena de nutrientes que impulsa tu flujo sanguíneo con un sabor delicioso.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Jugo Digestivo</p>
+                    <p class="product-title">Jugo Digestivo</p>
                     <p>Disfruta de nuestro jugo digestivo con naranja, papaya y piña. Una fusión refrescante y tropical que ayuda a mejorar la digestión y deleita tu paladar con cada sorbo.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://lasnaranjasonline.com/wp-content/uploads/2016/04/agua-de-naranja-y-fresas-720x380.jpg" alt="">
-                    <p>Jugo Refrescante</p>
+                    <p class="product-title">Jugo Refrescante</p>
                     <p>Refresca tus sentidos con nuestro jugo revitalizante de papaya, fresa y naranja. Una combinación vibrante que te transportará a un paraíso de sabores refrescantes.</p>
                 </article>
                 <article class="post-container">
                     <img src="https://img77.uenicdn.com/image/upload/v1569641171/business/jugos-el-confee/a6e9b9d0-ab83-4f42-89e6-e6d03b08edd5.jpg" alt="">
-                    <p>Vampiro</p>
+                    <p class="product-title">Vampiro</p>
                     <p>Prueba nuestro jugo vampiro con betabel, zanahoria y naranja. Una mezcla vibrante y nutritiva que despierta tus sentidos y te llena de energía saludable. ¡Ideal para un impulso revitalizante!</p>
                 </article>
                 <article class="post-container">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGO6CXt2BC3GuFfuGXlh_UKj0RCZ7aKx2YkQ&usqp=CAU alt=">
-                    <p>Jugo Verde</p>
+                    <p class="product-title">Jugo Verde</p>
                     <p>Prueba nuestro refrescante jugo verde con nopal, apio, piña, perejil y naranja. Una combinación saludable y revitalizante que te brinda nutrientes esenciales y un sabor refrescante.</p>
                 </article>
                 <!--Licuados-->
@@ -109,141 +112,141 @@
                     Licuados
                 </h3>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Avena</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://storage.googleapis.com/avena-recipes/2019/10/1571780225260.jpeg" alt="">
+                    <p class="product-title">Licuado de Avena</p>
+                    <p>Disfruta de nuestro nutritivo licuado de avena, una mezcla cremosa y saludable que te brinda energía duradera. ¡Delicioso y nutritivo para empezar tu día!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Chocomilk</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://assets.unileversolutions.com/recipes-v2/237783.jpg" alt="">
+                    <p class="product-title">Chocomilk</p>
+                    <p>Sumérgete en el placer con nuestro licuado de chocolate. Una deliciosa mezcla cremosa que combina el sabor intenso del chocolate con una textura suave.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Fresa</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.comedera.com/wp-content/uploads/2022/04/Batido-de-fresa-shutterstock_398479468.jpg" alt="">
+                    <p class="product-title">Licuado de Fresa</p>
+                    <p>Prueba nuestro delicioso licuado de fresa. Una mezcla suave y dulce que captura la frescura de las fresas y te brinda un deleite en cada sorbo.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Granola</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.lamansiondelasideas.com/wp-content/uploads/2022/09/Batido-de-platano-y-granola.jpg" alt="">
+                    <p class="product-title">Licuado de Granola</p>
+                    <p>Prueba nuestro licuado de granola, una combinación saludable y deliciosa que combina la textura crujiente de la granola con la suavidad de los ingredientes frescos.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Guayaba</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://assets.unileversolutions.com/recipes-v2/211352.jpg" alt="">
+                    <p class="product-title">Licuado de Guayaba</p>
+                    <p>Descubre la exquisita dulzura de nuestro licuado de guayaba. Una mezcla suave y jugosa que realza su sabor único. ¡Disfruta de un deleite lleno de sabor y frescura!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Mamey</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/397d4e5dcfe702a8e002b528d2a048ec.jpg?itok=6S8LQDvm" alt="">
+                    <p class="product-title">Licuado de Mamey</p>
+                    <p>Sumérgete en la dulce y cremosa experiencia de nuestro licuado de mamey. Disfruta su rica textura y el sabor exótico de esta fruta tropical en cada sorbo.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Mango</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://storage.googleapis.com/avena-recipes/agtzfmF2ZW5hLWJvdHIZCxIMSW50ZXJjb21Vc2VyGICAkKyViMwKDA/26-08-2021/1630012736159.jpeg" alt="">
+                    <p class="product-title">Licuado de Mango</p>
+                    <p>Disfruta de la irresistible frescura tropical con nuestro licuado de mango. ¡Siente el verano en tu paladar!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Nuez</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.gastrolabweb.com/u/fotografias/m/2022/4/28/f1280x720-28838_160513_7763.jpg" alt="">
+                    <p class="product-title">Licuado de Nuez</p>
+                    <p>Sumérgete en la deliciosa textura y el sabor cremoso de nuestro licuado de nuez. ¡Disfruta de esta opción saludable y deliciosa!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Papaya</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.objetivobienestar.com/uploads/s1/22/46/54/3/licuado-de-avena-y-papaya-como-bajar-de-peso-y-reducir-el-colesterol-con-la-bebida-de-moda.jpeg" alt="">
+                    <p class="product-title">Licuado de Papaya</p>
+                    <p>Deléitate con nuestro licuado de papaya, una mezcla refrescante y llena de sabor tropical. Disfruta de la suave textura y el dulzor natural de la papaya en cada sorbo.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Platano</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://i.blogs.es/bb7e61/licuado-de-manzana-y-platano/1366_2000.jpg" alt="">
+                    <p class="product-title">Licuado de Platano</p>
+                    <p>Prueba nuestro cremoso licuado de plátano. ¡Ideal para cargar energías en cualquier momento del día!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Licuado de Vainilla</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.abc.com.py/resizer/nsyvPDnxh465i1jZNXV2HUHs8WI=/fit-in/770x495/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/abccolor/ZZF7JWHKLJD2RBJPRVDQ4SXLLQ.jpg" alt="">
+                    <p class="product-title">Licuado de Vainilla</p>
+                    <p>Sumérgete en la suavidad y el aroma dulce de nuestro licuado de vainilla. Su mezcla delicada y reconfortante te envolverá en su sabor y cremosidad irresistibles.</p>
                 </article>
                 <!--Coctelería-->
                 <h3 id="cocteleria">
                     Coctelería
                 </h3>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Limonada (Natural o Mineral)</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/dab36729433d8afdc15a8b239f030d97.jpg" alt="">
+                    <p class="product-title">Limonada (Natural o Mineral)</p>
+                    <p>Refresca tu paladar con nuestra limonada. Una mezcla de limón fresco y un toque de dulzura, perfecta para combatir el calor y disfrutar de un sabor cítrico y revitalizante.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Naranjada (Natural o Mineral)</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.recetas-guatemala.com/base/stock/Recipe/144-image/144-image_web.jpg" alt="">
+                    <p class="product-title">Naranjada (Natural o Mineral)</p>
+                    <p>Disfruta de nuestra naranjada refrescante. ¡Refresca tu día con cada sorbo de esta deliciosa naranjada!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Piña Colada</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/5a06c9f3b2dcf287a154fab9a64de6a8.jpg" alt="">
+                    <p class="product-title">Piña Colada</p>
+                    <p>Prueba nuestra deliciosa piña colada, cremosa y refrescante. Una mezcla exquisita de piña dulce y suave coco que te hará disfrutar de un momento de relax en cada sorbo.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Sangría Natural</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://zonaguadalajara.com/wp-content/uploads/2016/08/Sangria-Natural.jpg" alt="">
+                    <p class="product-title">Sangría Natural</p>
+                    <p>Disfruta de nuestra sangría natural, una mezcla refrescante y frutal que combina vino con una variedad de frutas frescas. ¡Una experiencia refrescante para compartir y disfrutar!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Sangría Preparada</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://recetasdemipais.com/wp-content/uploads/2022/02/Receta-de-sangria-mexicana.jpg" alt="">
+                    <p class="product-title">Sangría Preparada</p>
+                    <p>Descubre el sabor de nuestra sangría preparada. Una mezcla lista para disfrutar que combina vino con una selección de frutas y sabores irresistibles. </p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Tom Collins</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://food-images.files.bbci.co.uk/food/recipes/tom_collins_58221_16x9.jpg" alt="">
+                    <p class="product-title">Tom Collins</p>
+                    <p>Refréscate con nuestro Tom Collins, una bebida clásica que combina ginebra, jugo de limón y un toque de refresco. Disfruta de su equilibrio refrescante y sabor cítrico en cada sorbo.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Desarmador</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://saboryestilo.com.mx/wp-content/uploads/2021/01/desarmador-bebida.jpg" alt="">
+                    <p class="product-title">Desarmador</p>
+                    <p>Disfruta de lo simple y refrescante de nuestro Desarmador. Una mezcla de vodka y jugo de naranja que te deleitará con su sabor cítrico. Perfecto para añadir un toque de frescura a tu día.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Bull</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://cdn7.kiwilimon.com/recetaimagen/27176/28514.jpg" alt="">
+                    <p class="product-title">Bull</p>
+                    <p>Disfruta de su equilibrio y sabor único en cada sorbo. ¡Descubre un cóctel que te hará sentir enérgico y listo para la diversión!</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Michelada Caguamón</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://cdn-3.expansion.mx/dims4/default/d1f41f9/2147483647/strip/true/crop/1920x1080+0+0/resize/1800x1013!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fbf%2F47%2Ffdc47adf44dc9d9dfcbcfa0905cd%2Fcream-and-black-pitch-deck-presentation-2022-10-21t110548.338.jpg" alt="">
+                    <p class="product-title">Michelada Caguamón</p>
+                    <p>Disfruta de nuestra Michelada con una caguama, una mezcla que combina cerveza y una combinación de sabores como limón, salsa picante y especias.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Michelada Lata</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://www.mashed.com/img/gallery/best-michelada-recipe/intro-1651508743.jpg" alt="">
+                    <p class="product-title">Michelada Lata</p>
+                    <p>Disfruta de nuestra Michelada con una cerveza de lata, una mezcla que combina cerveza y una combinación de sabores como limón, salsa picante y especias.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Clamatoño</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur deserunt praesentium, laborum dolores expedita?</p>
+                    <img src="https://static.onecms.io/wp-content/uploads/sites/21/2017/08/25/michelada-2000.jpg" alt="">
+                    <p class="product-title">Clamatoño</p>
+                    <p>Prueba nuestro refrescante Clamatoño, una combinación de cerveza y Clamato. Disfruta de su equilibrio entre la cerveza y el sabor salado y picante del Clamato en cada sorbo.</p>
                 </article>
                 <!--Calientes-->
                 <h3 id="bc">Bebidas Calientes</h3>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Chocolate Caliente</p>
-                    <p>100% Cacao</p>
+                    <img src="https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/make-ahead-hot-cocoa-mix.jpg" alt="">
+                    <p class="product-title">Chocolate Caliente</p>
+                    <p>Sumérgete en la intensidad y el sabor puro de nuestro chocolate caliente de 100% cacao. ¡Un placer irresistible para los amantes del chocolate!</p>
                 </article>
                 <!--Alimentos-->
                 <h3 id="alimentos">Alimentos</h3>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Cóctel de Frutas</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRero5tkWmfE8vrgnwTS_MhbTFDgQh691ECg&usqp=CAU" alt="">
+                    <p class="product-title">Cóctel de Frutas</p>
                     <p>Lorem ipsum dolor, sit amet </p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Birria</p>
+                    <img src="https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/51d58551bab557879d2312e231e582f5.jpg?itok=WCnID9YR" alt="">
+                    <p class="product-title">Birria</p>
                     <p>Únicamente en fines de semana.</p>
                 </article>
                 <article class="post-container">
-                    <img src="https://www.eltiempo.com/uploads/2023/04/25/644836aba85a1.jpeg" alt="">
-                    <p>Quesabirrias</p>
+                    <img src="https://cdn.vox-cdn.com/thumbor/mEz_FZ_cX6Q4oQJAdLh38CT2KHY=/0x0:2000x1333/1200x0/filters:focal(0x0:2000x1333):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19366191/LeGarage_PChang_9297.jpg" alt="">
+                    <p class="product-title">Quesabirrias</p>
                     <p>Únicamente en fines de semana.</p>
                 </article>
             </div>
@@ -251,7 +254,7 @@
         <script src="main.js"></script>
     </main>
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Cholula Ciudad Feliz, 2023 | Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
